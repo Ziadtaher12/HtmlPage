@@ -1,0 +1,118 @@
+h1{
+    text-align: center; 
+    color:rgb(0, 0, 0);  
+    text-transform: uppercase;
+    background-color: blanchedalmond ; 
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+    }
+    .title{
+        text-align: center; 
+    color:rgb(80, 80, 138);  
+    text-transform: uppercase;
+    background-color: rgb(44, 32, 15) ;
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+    
+    }
+
+   #specialTitle{
+        text-align: center; 
+    color:rgb(29, 71, 71);  
+    text-transform: uppercase;
+    background-color: rgb(182, 131, 55) ;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    }
+
+    body {
+        text-align: center;
+        background-image: url("Images/Gradient.png");
+        background-repeat: no-repeat;
+        background-size: 2000px; 
+        background-position: initial;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+
+    ul{
+        list-style-type: none;
+        border: 1px solid #1a4e30;
+        background-color: rgb(52, 84, 95);
+        overflow: hidden;
+        padding: 0px;
+        margin:  0px;
+
+        
+    }
+    li{
+        float: left;
+
+    }
+
+    a{
+        text-decoration: none;
+        color: rgb(179, 142, 214);
+
+        
+    }
+
+    li a {
+        display: block;
+        color: rgb(90, 58, 58);
+        text-align: center;
+        padding-left: 14px;
+        padding-right: 14px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+       
+        
+    }
+
+    li a:hover{
+        background-color: rgb(201, 201, 92);
+    }
+
+
+    .nav-right{
+        float: right;
+    }
+
+    
+    li  a.active{
+
+        background-color: rgb(28, 184, 168);
+        color:white;
+    }
+
+    div{
+        border:  3px solid; 
+        border-radius: 15px ;
+        border-style: double;
+        box-shadow: -10px 5px 0px rgb(129, 114, 129);
+        background-image: linear-gradient(rgb(212, 184, 188),aqua);
+    }
+
+    table{
+
+        width: 100%;
+        border: 1px solid;
+        border-collapse: collapse;
+
+    }
+    thead tr{
+        text-align: center;
+    }
+
+    thead{
+        background-color: teal;
+        color: white;
+    }
+
+    tr:nth-child(even)
+    {
+        background-color: silver;
+    }
